@@ -19,7 +19,7 @@
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
-    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --body-color: hsl(var(--hue-color), 60%, 98%);
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
@@ -98,6 +98,41 @@ body.dark-theme {
 
 .change-theme:hover {
     color: var(--first-color);
+    animation: change-theme 2s linear;
+    -webkit-animation: change-theme 2s linear;
+    -moz-animation: change-theme 2s linear;
+    -ms-animation: change-theme 2s linear;
+    -o-animation: change-theme 2s linear;
+}
+
+/* ANIMATION ICON MOON */
+@-webkit-keyframes change-theme {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+}
+@keyframes change-theme {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
 }
 
 /*==================== BASE ====================*/
@@ -305,7 +340,7 @@ img {
     animation-name: shake;
 }
 
-/* ANIMATIONS ICONS */
+/* ANIMATIONS ICONS HOME */
 @keyframes shake {
     from {transform: translateY(0rem)}
     15% {transform: translateX(0.25rem)}
@@ -318,7 +353,7 @@ img {
     85% {transform: translateY(0.25rem)}
     95% {transform: translateX(0.25rem)}
     to {transform: translateY(1rem)}
-  }
+}
 
 .home__blob {
     width: 270px;
@@ -335,6 +370,26 @@ img {
 
 .home__title {
     font-size: var(--big-font-size);
+}
+
+.name-typed {
+    width: 6.6ch;
+    animation: typing 1s steps(8), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid var(--title-color);
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+    
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
 }
 
 .home__subtitle {
@@ -394,6 +449,36 @@ img {
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
     transition: .3s;
+}
+
+.button__icon-home {
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--flex:hover .button__icon-home {
+    transform: translateX(.25rem)
+}
+
+.button__icon-dwn {
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--flex:hover .button__icon-dwn {
+    transform: translatey(.25rem)
+}
+
+.button__icon-msg {
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--flex:hover .button__icon-msg {
+    transform: translateX(.25rem)
 }
 
 .button--white {
