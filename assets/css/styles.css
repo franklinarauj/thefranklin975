@@ -18,7 +18,7 @@
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --input-color: hsl(var(--hue-color), 70%, 86%);
     --body-color: hsl(var(--hue-color), 60%, 98%);
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
@@ -331,11 +331,11 @@ img {
 
 .home__social-icon {
     font-size: 1.25rem;
-    color: var(--first-color);
+    color: var(--title-color);
 }
 
 .home__social-icon:hover {
-    color: var(--first-color-alt);
+    color: var(--first-color);
     animation-duration: 0.3s;
     animation-name: shake;
 }
@@ -974,6 +974,7 @@ img {
 .testimonial__data {
     justify-content: space-between;
     margin-bottom: var(--mb-1);
+    cursor: default;
 }
 
 .testimonial__img {
@@ -995,10 +996,52 @@ img {
 
 .testimonial__description {
     margin-bottom: var(--mb-2-5);
+    cursor: grab;
 }
 
 .testimonial__icon-star {
     color: var(--first-color);
+}
+
+/* STAR ANIMATED JUMPING - TO USE */
+.jumping {
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 1s infinite linear;
+    -o-animation: bounce 1s infinite linear;
+    -webkit-animation: bounce 1s infinite linear;
+    animation: bounce 1s infinite linear;
+}
+
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
 }
 
 .swiper-container .swiper-pagination-testimonial {
@@ -1418,6 +1461,7 @@ img {
     } */
 
     .contact__inputs{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        resize: vertical;
     }
 }

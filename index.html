@@ -859,11 +859,15 @@
                     <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
-                                <img src="assets/img/testimonial1.jpg" class="testimonial__img">
+                                <a href="https://www.linkedin.com/in/tcvieiraa">
+                                    <img src="assets/img/testimonial1.jpg" class="testimonial__img">
+                                </a>
 
                                 <div>
-                                    <h3 class="testimonial__name">Thiago Vieira</h3>
-                                    <span class="testimonial__client">Software Developer</span>
+                                    <a href="https://www.linkedin.com/in/tcvieiraa">
+                                        <h3 class="testimonial__name">Thiago Vieira</h3>
+                                        <span class="testimonial__client">Software Developer</span>
+                                    </a>
                                 </div>
                             </div>
 
@@ -894,11 +898,15 @@
                     <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
-                                <img src="assets/img/testimonial2.jpg" class="testimonial__img">
+                                <a href="https://www.linkedin.com/in/cleristonaraujo-businessanalyst-customersuccess/">
+                                    <img src="assets/img/testimonial2.jpg" class="testimonial__img">
+                                </a>
 
                                 <div>
-                                    <h3 class="testimonial__name">Cleriston Araujo</h3>
-                                    <span class="testimonial__client">Customer Success</span>
+                                    <a href="https://www.linkedin.com/in/cleristonaraujo-businessanalyst-customersuccess/">
+                                        <h3 class="testimonial__name">Cleriston Araujo</h3>
+                                        <span class="testimonial__client">Customer Success</span>
+                                    </a>
                                 </div>
                             </div>
 
@@ -928,7 +936,9 @@
                     <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
-                                <img src="assets/img/testimonial3.jpg" class="testimonial__img">
+                                <a href="https://www.linkedin.com/in/rafaeltoccolini/">
+                                    <img src="assets/img/testimonial3.jpg" class="testimonial__img">
+                                </a>
 
                                 <div>
                                     <h3 class="testimonial__name">Rafael Guido</h3>
@@ -974,7 +984,7 @@
             <div class="contact__container container grid">
                 <div>
                     
-                    <!--==================== TELEFONE ====================-->
+                    <!--==================== PHONE ====================-->
                     <div class="contact__information">
                         <i class="uil uil-phone contact__icon"></i>
                         
@@ -994,7 +1004,7 @@
                         </div>
                     </div>
 
-                    <!--==================== E-MAIL ====================-->
+                    <!--==================== LOOCALE ====================-->
                     <div class="contact__information">
                         <i class="uil uil-map-marker-alt contact__icon"></i>
 
@@ -1010,14 +1020,14 @@
                     <div class="contact__inputs grid">
 
                         <div class="contact__content">
-                            <label for="" class="contact__label">Nome</label>
-                            <input type="text" class="contact__input">
+                            <label for="" class="contact__label">Assunto</label>
+                            <input id="subject" type="text" class="contact__input">
                         </div>
 
-                        <div class="contact__content">
+                        <!-- <div class="contact__content">
                             <label for="" class="contact__label">E-mail</label>
                             <input type="email" class="contact__input">
-                        </div>
+                        </div> -->
 
                         <!-- <div class="contact__content">
                             <label for="" class="contact__label">Projeto</label>
@@ -1027,11 +1037,11 @@
                     
                     <div class="contact__content">
                         <label for="" class="contact__label">Mensagem</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input" style="resize: vertical"></textarea>
+                        <textarea name="" id="myText" cols="0" rows="7" maxlength="500" class="contact__input" style="resize: vertical"></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
+                        <a onclick="sendMail(); return false" class="button button--flex" style="cursor: pointer;">
                             Enviar mensagem
                             <i class="uil uil-message button__icon-msg"></i>
                         </a>
