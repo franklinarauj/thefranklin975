@@ -637,7 +637,7 @@ img {
     width: 75%;
 }
 
-.skills__react {
+.skills__vuejs {
     width: 45%;
 }
 
@@ -1359,7 +1359,7 @@ img {
         justify-content: space-between;
     }
     .about__buttons {
-        justify-content: initial;
+        justify-content: center;
     }
 
     .qualification__tabs {
