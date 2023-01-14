@@ -626,11 +626,11 @@ img {
 }
 
 .skills__css {
-    width: 70%;
+    width: 90%;
 }
 
 .skills__js {
-    width: 75%;
+    width: 80%;
 }
 
 .skills__angular {
@@ -641,16 +641,16 @@ img {
     width: 45%;
 }
 
-.skills__node {
+.skills__java {
     width: 65%;
 }
 
-.skills__java {
-    width: 45%;
+.skills__node {
+    width: 50%;
 }
 
 .skills__python {
-    width: 50%;
+    width: 40%;
 }
 
 .skills__figma {
@@ -662,15 +662,15 @@ img {
 }
 
 .skills__lr {
-    width: 70%;
+    width: 85%;
 }
 
 .skills__ae {
-    width: 50%;
+    width: 75%;
 }
 
 .skills__pr {
-    width: 60%;
+    width: 80%;
 }
 
 .skills__fotografia {
@@ -682,11 +682,11 @@ img {
 }
 
 .skills__escrita {
-    width: 75%;
+    width: 80%;
 }
 
 .skills__lives {
-    width: 70%;
+    width: 100%;
 }
 
 .skills__edicao {
@@ -1442,7 +1442,7 @@ img {
     }
 
     .services__container {
-        grid-template-columns: repeat(4, 238px);
+        grid-template-columns: repeat(3, 238px);
     }
 
     .portfolio__content {
