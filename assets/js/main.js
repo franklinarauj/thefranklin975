@@ -201,8 +201,8 @@ themeButton.addEventListener('click', () => {
 // SEND MAIL TO CONTACT
 
 function sendMail() {
-    var link = "mailto:franklinarauj@gmail.com"
-             + "?cc=franklinarauj@hotmail.com"
+    var link = "mailto:franklinarauj.contato@gmail.com"
+             + "?cc=franklinarauj@gmail.com"
              + "&subject=" + encodeURIComponent(document.getElementById('subject').value)
              + "&body=" + encodeURIComponent(document.getElementById('myText').value)
     ;

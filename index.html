@@ -10,7 +10,7 @@
 
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    
+
     <!--==================== FONT AWESOME ICONS ====================-->
     <link rel="stylesheet" href="assets/css/all.css">
 
@@ -23,13 +23,13 @@
     <title>Franklin Araújo ™</title>
 </head>
 
-<body class="">
+<body class="dark-theme">
 
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo name-typed">Franklin</a>
-            
+
             <!-- SHOW MENU INITIAL -->
             <!-- <div class="nav__menu show-menu" id="nav-menu"> -->
             <!-- HIDE MENU INITIAL -->
@@ -55,11 +55,11 @@
                             <i class="uil uil-backpack nav__icon"></i> Jornada Profissional
                         </a>
                     </li>
-                    <li class="nav__item">
+                    <!-- <li class="nav__item">
                         <a href="#services" class="nav__link">
                             <i class="uil uil-briefcase-alt nav__icon"></i> Serviços
                         </a>
-                    </li>
+                    </li> -->
                     <li class="nav__item">
                         <a href="#portfolio" class="nav__link">
                             <i class="uil uil-scenery nav__icon"></i> Portfólio
@@ -108,13 +108,14 @@
 
                         <a href="https://twitter.com/TheFranklin975" target="_blank" class="home__social-icon">
                             <i class="uil uil-twitter-alt"></i>
-                        </a>  
+                        </a>
 
                         <a href="https://www.twitch.tv/thefranklin975" target="_blank" class="home__social-icon">
                             <i class="fab fa-twitch"></i>
                         </a>
 
-                        <a href="https://open.spotify.com/user/22fik5wvc3hhx37hgndx5xzgi?si=454b7fa8fabf40cb" target="_blank" class="home__social-icon">
+                        <a href="https://open.spotify.com/user/22fik5wvc3hhx37hgndx5xzgi?si=454b7fa8fabf40cb"
+                            target="_blank" class="home__social-icon">
                             <i class="fab fa-spotify"></i>
                         </a>
                     </div>
@@ -137,10 +138,12 @@
                     </div>
 
                     <div class="home__data">
-                            <h1 class="home__title">Salve, eu sou o Franklin</h1>
+                        <h1 class="home__title">Salveee, eu sou o Franklin</h1>
                         <h3 class="home__subtitle">Desenvolvedor Fullstack</h3>
-                        <p class="home__description">Sou um dev que tem um foco maior no frontend, no qual utilizo os frameworks mais
-                            atuais de JavaScript (Angular e Vue.js) e aplicando conceitos de UI/UX Design para desenvolvimento e prototipação.</p>
+                        <p class="home__description">Atualmente sou um dev pleno que trabalha com os frameworks mais
+                            atuais de JavaScript (Angular, Vue.js, React/React Native), integrando com Java e Node.js no
+                            backend.
+                            Além de aplicar conceitos de UI/UX Design para desenvolvimento e prototipação de telas.</p>
                         <a href="#contact" class="button button--flex">
                             Fale comigo <i class="uil uil-message button__icon-home"></i>
                         </a>
@@ -165,29 +168,29 @@
             <span class="section__subtitle">...ou quase isso</span>
 
             <div class="about__container container grid">
-                <img src="assets/img/about.jpg" class="about__img">
+                <img src="assets/img/about.jpeg" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">Programador alinhado com boas práticas de design, 
-                        amo coisas que envolvam música, fotografia, literatura, psicologia e diversas
-                        outras áreas.</p>
+                    <p class="about__description">Um programador alinhado com boas práticas de design,
+                        amo coisas que envolvam tecnologia, música, fotografia, literatura,
+                        psicologia e diversas outras áreas.</p>
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">5+</span>
-                            <span class="about__info-name">Anos de <br> experiência</span>
+                            <span class="about__info-title">+5</span>
+                            <span class="about__info-name">Anos de<br> experiência como dev</span>
                         </div>
                         <div>
-                            <span class="about__info-title">7+</span>
-                            <span class="about__info-name">Projetos <br> completos</span>
+                            <span class="about__info-title">+4</span>
+                            <span class="about__info-name">Projetos <br> importantes trabalhados</span>
                         </div>
                         <div>
-                            <span class="about__info-title">6+</span>
-                            <span class="about__info-name">Empresas <br> trabalhadas</span>
+                            <span class="about__info-title">+5</span>
+                            <span class="about__info-name">Grandes <br> empresas trabalhadas</span>
                         </div>
                     </div>
 
                     <div class="about__buttons">
-                        <a download="" href="assets/pdf/cv_franklinarauj.pdf" class="button button--flex">
+                        <a download="" href="assets/pdf/CV_FRANKLIN-2024.pdf" class="button button--flex">
                             <!-- Download Currículo<i class="uil uil-file-download-alt button__icon"></i> -->
                             Download Currículo<i class="uil uil-import button__icon-dwn"></i>
                             <!-- Download Currículo<i class="uil uil-download-alt button__icon"></i> -->
@@ -201,64 +204,51 @@
         <!--==================== SKILLS ====================-->
         <section class="skills section" id="skills">
             <h2 class="section__title">Habilidades</h2>
-            <span class="section__subtitle">...sim, eu sei fazer muita coisa</span>
+            <span class="section__subtitle">...sei um pouco aqui e um pouco ali</span>
 
             <div class="skills__container container grid">
-                <div>
-
+                <div  id="skill-group-1">
                     <!--==================== SKILLS 1 ====================-->
-                    <div class="skills__content skills__open">
+                    <div class="skills__content skills__close">
                         <div class="skills__header">
                             <i class="uil uil-brackets-curly skills__icon"></i>
 
                             <div>
-                                <h1 class="skills__title">Desenvolvedor Frontend</h1>
-                                <span class="skills__subtitle">Há mais de 4 anos</span>
+                                <h1 class="skills__title">Frontend</h1>
+                                <span class="skills__subtitle">Stacks mais usadas</span>
                             </div>
 
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
                         <div class="skills__list grid">
                             <div class="skills__data">
-                                
+
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">HTML</h3>
-                                    <span class="skills__number">90%</span>
+                                    <h3 class="skills__name">Angular, Vue.js</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">CSS</h3>
-                                    <span class="skills__number">90%</span>
+                                    <h3 class="skills__name">React/React Native</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__css"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">JavaScript</h3>
-                                    <span class="skills__number">80%</span>
+                                    <h3 class="skills__name">HTML, CSS, Tailwind</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__js"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Angular</h3>
-                                    <span class="skills__number">75%</span>
+                                    <h3 class="skills__name">Ionic, Nebular, Cypress</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__angular"></span>
-                                </div>
-
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Vue.js</h3>
-                                    <span class="skills__number">45%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__vuejs"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                             </div>
@@ -268,57 +258,53 @@
                     <!--==================== SKILLS 2 ====================-->
                     <div class="skills__content skills__close">
                         <div class="skills__header">
-                            <i class="uil uil-server-network skills__icon"></i>
+                            <i class="uil uil-database skills__icon"></i>
 
                             <div>
-                                <h1 class="skills__title">Desenvolvedor Backend</h1>
-                                <span class="skills__subtitle">Há mais de 3 anos</span>
+                                <h1 class="skills__title">Banco de Dados</h1>
+                                <span class="skills__subtitle">Manipulação e criação de querys</span>
                             </div>
 
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
                         <div class="skills__list grid">
                             <div class="skills__data">
-      
+
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Java</h3>
-                                    <span class="skills__number">65%</span>
+                                    <h3 class="skills__name">DBeaver, MongoDB</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__java"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Node.js</h3>
-                                    <span class="skills__number">50%</span>
+                                    <h3 class="skills__name">Oracle SQL, PostgreSQL</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__node"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Python</h3>
-                                    <span class="skills__number">40%</span>
+                                    <h3 class="skills__name">NoSQL, MySQL, SQLite</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__python"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-
                 </div>
 
-                <div>
+                <div id="skill-group-2">
                     <!--==================== SKILLS 3 ====================-->
                     <div class="skills__content skills__close">
                         <div class="skills__header">
-                            <i class="uil uil-swatchbook skills__icon"></i>
+                            <i class="uil uil-server-network skills__icon"></i>
 
                             <div>
-                                <h1 class="skills__title">Designer</h1>
-                                <span class="skills__subtitle">Há mais de 6 anos</span>
+                                <h1 class="skills__title">Backend</h1>
+                                <span class="skills__subtitle">Tenho uma certa bagagem</span>
                             </div>
 
                             <i class="uil uil-angle-down skills__arrow"></i>
@@ -327,43 +313,31 @@
                             <div class="skills__data">
 
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Figma</h3>
-                                    <span class="skills__number">85%</span>
+                                    <h3 class="skills__name">Java, Node.js</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__figma"></span>
-                                </div>
-                                
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Photoshop</h3>
-                                    <span class="skills__number">90%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__ps"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Lightroom</h3>
-                                    <span class="skills__number">85%</span>
+                                    <h3 class="skills__name">Spring Boot, Swagger UI</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__lr"></span>
-                                </div>
-                                
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">After Effects</h3>
-                                    <span class="skills__number">75%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__ae"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Premiere Pro</h3>
-                                    <span class="skills__number">80%</span>
+                                    <h3 class="skills__name">Ruby on Rails, Python</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__pr"></span>
+                                    <span class="skills__percentage skills__sr"></span>
+                                </div>
+
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Docker, Insomnia</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                             </div>
@@ -373,11 +347,11 @@
                     <!--==================== SKILLS 4 ====================-->
                     <div class="skills__content skills__close">
                         <div class="skills__header">
-                            <i class="uil uil-icons skills__icon"></i>
+                            <i class="uil uil-swatchbook skills__icon"></i>
 
                             <div>
-                                <h1 class="skills__title">Hobbies</h1>
-                                <span class="skills__subtitle">Para uso pessoal e profissional</span>
+                                <h1 class="skills__title">Designer</h1>
+                                <span class="skills__subtitle">Apaixonado por UX/UI</span>
                             </div>
 
                             <i class="uil uil-angle-down skills__arrow"></i>
@@ -386,49 +360,86 @@
                             <div class="skills__data">
 
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Fotografia</h3>
-                                    <span class="skills__number">80%</span>
+                                    <h3 class="skills__name">Figma, Adobe XD</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__fotografia"></span>
-                                </div>
-                                
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Comunicação</h3>
-                                    <span class="skills__number">90%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__comunicacao"></span>
-                                </div>
- 
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Escrita/Redação</h3>
-                                    <span class="skills__number">80%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__escrita"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Livestreams</h3>
-                                    <span class="skills__number">100%</span>
+                                    <h3 class="skills__name">Photoshop, Lightroom</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__lives"></span>
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
-                                                               
+
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Edição de Vídeo</h3>
-                                    <span class="skills__number">70%</span>
+                                    <h3 class="skills__name">Premiere Pro, After Effects</h3>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__edicao"></span>
+                                    <span class="skills__percentage skills__sr"></span>
+                                </div>
+
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Illustrator, CorelDRAW</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sr"></span>
+                                </div>
+
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"> Color Hunt, Color Drop, ColorShark</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sr"></span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div id="skill-group-3">
+                    <!--==================== SKILLS 5 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-icons skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Hobbies</h1>
+                                <span class="skills__subtitle">Coisas que faço no tempo livre</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">OBS Studio, Livestream, Fusion 360</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sr"></span>
+                                </div>
+
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Fotografia, Redação, Impressão 3D</h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sr"></span>
+                                </div>
+
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Edição de Vídeo e Criação de Conteúdo
+                                    </h3>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sr"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -437,83 +448,30 @@
         <section class="qualification section" id="journey">
             <h2 class="section__title">Jornada Profissional</h2>
             <span class="section__subtitle">"The Road So Far", pegou a referência?</span>
-            
+
             <div class="qualification__container container">
                 <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target='#educacao'>
-                        <i class="uil uil-graduation-cap qualification__icon"></i>
-                        Educação
-                    </div>
-                    
-                    <div class="qualification__button button--flex" data-target="#trabalho">
+                    <div class="qualification__button button--flex qualification__active" data-target="#trabalho">
                         <i class="uil uil-briefcase-alt qualification__icon"></i>
                         Trabalho
                     </div>
+                    
+                    <div class="qualification__button button--flex" data-target='#educacao'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Educação
+                    </div>
                 </div>
-                
+
                 <div class="qualification__sections">
 
-                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                    <div class="qualification__content qualification__active" data-content id="educacao">
-
-                        <!--==================== QUALIFICATION 1 ====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Ciência da Computação</h3>
-                                <span class="qualification__subtitle">Centro Universitário de Brasília - UniCEUB</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt qua">
-                                        2018 - 2021
-                                    </i>
-                                </div>
-                                <div class="qualification__locale">
-                                    <i class="uil uil-map-marker-alt">
-                                        Brasília/DF - Brasil
-                                    </i>
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                        </div>
-
-                        <!--==================== QUALIFICATION 2 ====================-->
-                        <div class="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
-                            </div>
-
-                            <div>
-                                <h3 class="qualification__title">Ensino Médio</h3>
-                                <span class="qualification__subtitle">Rede de Ensino Certo</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt qua">
-                                        2013 - 2015
-                                    </i>
-                                </div>
-                                <div class="qualification__locale">
-                                    <i class="uil uil-map-marker-alt">
-                                        Brasília/DF - Brasil
-                                    </i>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                    <div class="qualification__content" data-content id="trabalho">
+                    <!--==================== QUALIFICATION CONTENT ====================-->
+                    <div class="qualification__content qualification__active" data-content id="trabalho">
 
                         <!--==================== QUALIFICATION 0 ====================-->
                         <div class="qualification__data">
                             <div>
                                 <h3 class="qualification__title">Analista Desenvolvedor Pleno</h3>
-                                <span class="qualification__subtitle">Datainfo</span>
+                                <span class="qualification__subtitle">Datainfo (CAPES)</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt qua">
                                         Janeiro de 2023 - Atualmente
@@ -543,7 +501,7 @@
 
                             <div>
                                 <h3 class="qualification__title">Desenvolvedor Frontend Jr.</h3>
-                                <span class="qualification__subtitle">Rocketwave Tecnologia LTDA.</span>
+                                <span class="qualification__subtitle">Rocketwave Tecnologia LTDA</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt qua">
                                         Fevereiro de 2022 - Dezembro de 2022
@@ -561,7 +519,7 @@
                         <div class="qualification__data">
                             <div>
                                 <h3 class="qualification__title">Web Designer Pleno</h3>
-                                <span class="qualification__subtitle">Stefanini IT Solutions</span>
+                                <span class="qualification__subtitle">Stefanini Brasil (CASSI)</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt qua">
                                         Abril de 2021 - Fevereiro de 2022
@@ -591,7 +549,8 @@
 
                             <div>
                                 <h3 class="qualification__title">Estagiário de Desenvolvimento</h3>
-                                <span class="qualification__subtitle">Procuradoria da República do Distrito Federal - Ministério Público Federal</span>
+                                <span class="qualification__subtitle">Procuradoria da República do Distrito Federal -
+                                    Ministério Público Federal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt qua">
                                         Maio de 2019 - Maio de 2021
@@ -609,7 +568,7 @@
                         <div class="qualification__data">
                             <div>
                                 <h3 class="qualification__title">Agente de Service Desk 1A</h3>
-                                <span class="qualification__subtitle">CTIS Tecnologia</span>
+                                <span class="qualification__subtitle">CTIS Tecnologia (SONDA)</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt qua">
                                         Setembro de 2018 - Maio de 2019
@@ -639,10 +598,63 @@
 
                             <div>
                                 <h3 class="qualification__title">Estagiário Técnico Suporte 1</h3>
-                                <span class="qualification__subtitle">Active Comércio e Serviços Ltda</span>
+                                <span class="qualification__subtitle">Active Comércio e Serviços LTDA</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt qua">
                                         Janeiro de 2017 - Setembro de 2018
+                                    </i>
+                                </div>
+                                <div class="qualification__locale">
+                                    <i class="uil uil-map-marker-alt">
+                                        Brasília/DF - Brasil
+                                    </i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--==================== QUALIFICATION EDUCATION CONTENT ====================-->
+                    <div class="qualification__content" data-content id="educacao">
+
+                        <!--==================== EDUCATION QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Ciência da Computação</h3>
+                                <span class="qualification__subtitle">Centro Universitário de Brasília - UniCEUB</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt qua">
+                                        2018 - 2021
+                                    </i>
+                                </div>
+                                <div class="qualification__locale">
+                                    <i class="uil uil-map-marker-alt">
+                                        Brasília/DF - Brasil
+                                    </i>
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== EDUCATION QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Ensino Médio</h3>
+                                <span class="qualification__subtitle">Rede de Ensino Certo</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt qua">
+                                        2013 - 2015
                                     </i>
                                 </div>
                                 <div class="qualification__locale">
@@ -658,305 +670,110 @@
             </div>
         </section>
 
-        <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
-            <h2 class="section__title">Serviços</h2>
-            <span class="section__subtitle">...minhas habilidades profissionais (e amadoras)</span>
-            
-            <div class="services__container container grid">
-
-                <!--==================== SERVICES 0 ====================-->
-                <div class="services__content">
-                    <i class="uil uil-java-script services__icon"></i>
-                    <h3 class="services__title">Desenvolvedor <br> Frontend</h3>
-                    
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver mais 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-                    
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Desenvolvedor Frontend</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            
-                            <ui class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu crio páginas conforme os protótipos, sendo sempre fiel.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu desenvolvo com noções de design que facilita o uso para o usuário.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu conheço e utilizo linguagens JS atuais, sempre com código limpo.</p>
-                                </li>
-                            </ui>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 0 ====================-->
-                <div class="services__content">
-                    <i class="uil uil-brackets-curly services__icon"></i>
-                    <h3 class="services__title">Desenvolvedor <br> Backend</h3>
-                    
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver mais 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-                    
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Desenvolvedor Backend</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            
-                            <ui class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Criação, implementação e manutenção de estruturas baseadas em arquiteturas atuais (como DDD).</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Criação e integração de APIs com o framework utilizado no frontend.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Criação de scripts e manipulação de dados com o banco de dados do projeto (como PostgreSQL).</p>
-                                </li>
-                            </ui>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 2 ====================-->
-                <div class="services__content">
-                    <i class="uil uil-desktop services__icon"></i>
-                    <h3 class="services__title">WEB <br> Designer</h3>
-                    
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver mais 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-                    
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">WEB Designer</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            
-                            <ui class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu crio artes digitais para redes sociais e afins.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu desenvolvo páginas de websites.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu edito e crio vídeos incríveis.</p>
-                                </li>
-                            </ui>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 3 ====================-->
-                <div class="services__content">
-                    <i class="uil uil-object-group services__icon"></i>
-                    <h3 class="services__title">UI/UX <br> Designer</h3>
-                    
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver mais 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-                    
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">UI/UX Designer</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            
-                            <ui class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu desenvolvo interfaces de usuário.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu garanto uma experiência de usuário excelente.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu faço sua ideia e sua marca subir de nível.</p>
-                                </li>
-                            </ui>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 4 ====================-->
-                <div class="services__content">
-                    <i class="uil uil-camera services__icon"></i>
-                    <h3 class="services__title">Fotógrafo <br> Amador</h3>
-                    
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver mais 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-                    
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Fotógrafo Amador</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            
-                            <ui class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu registro lugares, paisagens, animais, pessoas, etc.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Eu gosto e tenho capacidade de registrar eventos, ensaios e rolês.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Para ver algumas fotos siga meu Instagram 
-                                        <a href="https://www.instagram.com/works.arauj/" 
-                                        class="insta">@works.arauj</a>.
-                                    </p>
-                                </li>
-                            </ui>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 5 ====================-->
-                <div class="services__content">
-                    <i class="uil uil-play services__icon"></i>
-                    <h3 class="services__title">Streamer e <br> Youtuber</h3>
-                    
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver mais 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-                    
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Streamer e Youtuber</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            
-                            <ui class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Criação e edição de identidades visuais para canais de lives e vídeos.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Configuração dos ambientes de livestream (como OBS, Streamlabs e etc).</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Para alguns exemplos, veja meu canal na  
-                                        <a href="https://www.twitch.tv/thefranklin975" 
-                                        class="insta">Twitch</a>.
-                                    </p>
-                                </li>
-                            </ui>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Portfólio</h2>
             <span class="section__subtitle">...projetos recentes</span>
-            
+
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
 
                     <!--==================== PORTFOLIO  ====================-->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio0.jpg" class="portfolio__img">
-                        
+
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Rocketwave</h3>
                             <p class="portfolio__description">
-                                Site de boas vindas para a empresa Rocketwave, desenvolvido por mim com base no protótipo da nossa designer UX/UI.
+                                Site de boas vindas para a empresa Rocketwave, desenvolvido por mim com base no
+                                protótipo da nossa designer UX/UI.
                             </p>
-                            <a href="https://github.com/franklinarauj/rckt-site" class="button button--flex button--small portfolio__button">
-                                Visualizar
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+                            <div>
+                                <a href="https://github.com/franklinarauj/rckt-site" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Visualizar
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <!--==================== PORTFOLIO 1 ====================-->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio1.jpg" class="portfolio__img">
-                        
+
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Empatia</h3>
                             <p class="portfolio__description">
-                                Aplicativo que visa facilitar pessoas a se ajudarem durante a quarentena e o isolamento social.
+                                Aplicativo que visa facilitar pessoas a se ajudarem durante a quarentena e o isolamento
+                                social.
                             </p>
-                            <a href="https://github.com/franklinarauj/Empatia" class="button button--flex button--small portfolio__button">
-                                Visualizar
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+                            <div>
+                                <a href="https://github.com/franklinarauj/Empatia" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Visualizar
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <!--==================== PORTFOLIO 2 ====================-->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio2.jpg" class="portfolio__img">
-                        
+
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Canal de Denúncia</h3>
                             <p class="portfolio__description">
-                                Sistema de um canal de denúncia para funcionários, fornecedores e/ou clientes registrarem condutas inapropriadas.
+                                Sistema de um canal de denúncia para funcionários, fornecedores e/ou clientes
+                                registrarem condutas inapropriadas.
                             </p>
-                            <a href="https://github.com/franklinarauj/Canal-De-Denuncia" class="button button--flex button--small portfolio__button">
-                                Visualizar
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+                            <div>
+                                <a href="https://github.com/franklinarauj/Canal-De-Denuncia" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Visualizar
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <!--==================== PORTFOLIO 3 ====================-->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio3.jpg" class="portfolio__img">
-                        
+
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Cuida+</h3>
                             <p class="portfolio__description">
-                                Uma solução web/mobile, onde a ideia é intermediar o contato entre cuidadores(as) e pacientes que precisam de cuidados particulares.
+                                Uma solução web/mobile, onde a ideia é intermediar o contato entre cuidadores(as) e
+                                pacientes que precisam de cuidados particulares.
                             </p>
-                            <a href="https://github.com/franklinarauj/TCC" class="button button--flex button--small portfolio__button">
-                                Visualizar
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+                            <div>
+                                <a href="https://github.com/franklinarauj/TCC" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Visualizar
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <!--==================== PORTFOLIO 4 ====================-->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio4.jpg" class="portfolio__img">
-                        
+
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Deixa Eu Te Ajudar</h3>
                             <p class="portfolio__description">
                                 Aplicativo educacional para alunos do Ensino Médio com foco no ENEM.
                             </p>
-                            <a href="https://github.com/franklinarauj/Deixa-Eu-Te-Ajudar" class="button button--flex button--small portfolio__button">
-                                Visualizar
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+                            <div>
+                                <a href="https://github.com/franklinarauj/Deixa-Eu-Te-Ajudar" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Visualizar
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
@@ -981,7 +798,7 @@
         <section class="project section" id="project">
             <div class="project__bg">
                 <div class="project__container container grid">
-                    
+
                     <div class="project__data">
                         <h2 class="project__title">Tem algum projeto em mente?</h2>
                         <p class="project__description">
@@ -1003,7 +820,7 @@
         <section class="testimonial section" id="testimonial">
             <h2 class="section__title">Recomendações</h2>
             <span class="section__subtitle">...se eles falaram, tá falado</span>
-            
+
             <div class="testimonial__container container swiper-container">
                 <div class="swiper-wrapper">
                     <!--==================== TESTIMONIAL 0 ====================-->
@@ -1017,7 +834,7 @@
                                 <div>
                                     <a href="https://www.linkedin.com/in/luana-feitosa-19764079/">
                                         <h3 class="testimonial__name">Luana Feitosa</h3>
-                                        <span class="testimonial__client">Co-Founder & CEO at Rocketwave</span>
+                                        <span class="testimonial__client">Agile Coach & Project Manager</span>
                                     </a>
                                 </div>
                             </div>
@@ -1039,10 +856,12 @@
                         </div>
 
                         <p class="testimonial__description">
-                            Franklin é um excelente profissional, atencioso e muito cuidadoso com tudo o que faz. 
-                            Sempre disposto a buscar soluções boas e viáveis para os desafios que lhe são apresentados, 
-                            trabalha muito bem em equipe contribuindo para a construção do que costumamos chamar de "galerosidade". 
-                            Além disso, entrega qualidade com agilidade, é um "frontendista" de mão cheia! Após um período de muito 
+                            Franklin é um excelente profissional, atencioso e muito cuidadoso com tudo o que faz.
+                            Sempre disposto a buscar soluções boas e viáveis para os desafios que lhe são apresentados,
+                            trabalha muito bem em equipe contribuindo para a construção do que costumamos chamar de
+                            "galerosidade".
+                            Além disso, entrega qualidade com agilidade, é um "frontendista" de mão cheia! Após um
+                            período de muito
                             aprendizado mútuo, deixo minha recomendação e selo de qualidade para o Franklin!
                         </p>
                     </div>
@@ -1057,7 +876,7 @@
                                 <div>
                                     <a href="https://www.linkedin.com/in/tcvieiraa">
                                         <h3 class="testimonial__name">Thiago Vieira</h3>
-                                        <span class="testimonial__client">Software Developer</span>
+                                        <span class="testimonial__client">Software Developer & Data Scientist</span>
                                     </a>
                                 </div>
                             </div>
@@ -1073,8 +892,10 @@
 
                         <p class="testimonial__description">
                             Franklin é um jovem profissional com muita habilidade de comunicação e rápida aprendizagem.
-                            No período em que trabalhou conosco trouxe sempre uma visão de melhoria contínua no nosso trabalho, 
-                            sempre visando a melhora de usabilidade e interface gráfica dos nossos sistemas e aplicativos.
+                            No período em que trabalhou conosco trouxe sempre uma visão de melhoria contínua no nosso
+                            trabalho,
+                            sempre visando a melhora de usabilidade e interface gráfica dos nossos sistemas e
+                            aplicativos.
                             Demonstrava boas habilidade de programação e de auto organização do seu trabalho.
                         </p>
                     </div>
@@ -1086,15 +907,15 @@
                                 <a href="https://www.linkedin.com/in/virgilio-stefanin/">
                                     <img src="assets/img/testimonial2.jpg" class="testimonial__img">
                                 </a>
-    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/virgilio-stefanin/">
                                         <h3 class="testimonial__name">Virgilio Stefanin Pacheco</h3>
-                                        <span class="testimonial__client">Full Stack Developer</span>
+                                        <span class="testimonial__client">Software Developer Full Stack</span>
                                     </a>
                                 </div>
                             </div>
-    
+
                             <div>
                                 <i class="fas fa-star testimonial__icon-star"></i>
                                 <i class="fas fa-star testimonial__icon-star"></i>
@@ -1103,18 +924,24 @@
                                 <i class="fas fa-star testimonial__icon-star"></i>
                             </div>
                         </div>
-    
+
                         <p class="testimonial__description">
-                            Conheci o Franklin em uma entrevista de emprego e já nesse momento ele me impressionou, transparecia ser um desenvolvedor competente, 
-                            esforçado e com especialidades ímpares de design e front end. Posteriormente a esse momento começamos a trabalhar juntos e ficou nítido 
-                            suas habilidades interpessoais e seu nível profissional. Qualquer problema com o frontend ele resolvia com facilidade, desatolando o time 
-                            em uma área crítica, seus insights de design sempre conseguia melhorar mais ainda os protótipos de tela onde precisava, e onde não precisava 
-                            ele seguiria o design de forma fidedigna. Sempre foi uma pessoa amigável, companheira e atuando em conjunto com o time. Sua sensibilidade é 
-                            singular e seu trabalho é caprichoso. Suas habilidades se encaixam como uma luva em qualquer time e tenho muito orgulho de ter trabalhado com 
+                            Conheci o Franklin em uma entrevista de emprego e já nesse momento ele me impressionou,
+                            transparecia ser um desenvolvedor competente,
+                            esforçado e com especialidades ímpares de design e front end. Posteriormente a esse momento
+                            começamos a trabalhar juntos e ficou nítido
+                            suas habilidades interpessoais e seu nível profissional. Qualquer problema com o frontend
+                            ele resolvia com facilidade, desatolando o time
+                            em uma área crítica, seus insights de design sempre conseguia melhorar mais ainda os
+                            protótipos de tela onde precisava, e onde não precisava
+                            ele seguiria o design de forma fidedigna. Sempre foi uma pessoa amigável, companheira e
+                            atuando em conjunto com o time. Sua sensibilidade é
+                            singular e seu trabalho é caprichoso. Suas habilidades se encaixam como uma luva em qualquer
+                            time e tenho muito orgulho de ter trabalhado com
                             um profissional desse calibre.
                         </p>
                     </div>
-                    
+
                     <!--==================== TESTIMONIAL 3 ====================-->
                     <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
@@ -1126,7 +953,7 @@
                                 <div>
                                     <a href="https://www.linkedin.com/in/cleristonaraujo/">
                                         <h3 class="testimonial__name">Cleriston Araujo</h3>
-                                        <span class="testimonial__client">Customer Success</span>
+                                        <span class="testimonial__client">Business Analyst & Requirements Analyst</span>
                                     </a>
                                 </div>
                             </div>
@@ -1141,8 +968,10 @@
                         </div>
 
                         <p class="testimonial__description">
-                            Tem muita facilidade em aprender e é humilde perante as críticas. Identifica oportunidades de melhoria 
-                            do serviço e propõe soluções concretas. Destacava-se dos outros por não se limitar ao cumprimento das 
+                            Tem muita facilidade em aprender e é humilde perante as críticas. Identifica oportunidades
+                            de melhoria
+                            do serviço e propõe soluções concretas. Destacava-se dos outros por não se limitar ao
+                            cumprimento das
                             suas tarefas e pela sua boa disposição.
                         </p>
                     </div>
@@ -1158,7 +987,7 @@
                                 <div>
                                     <a href="https://www.linkedin.com/in/rafaeltoccolini/">
                                         <h3 class="testimonial__name">Rafael Guido</h3>
-                                        <span class="testimonial__client">Full Stack Developer</span>
+                                        <span class="testimonial__client">Software Developer Full Stack</span>
                                     </a>
                                 </div>
                             </div>
@@ -1173,9 +1002,12 @@
                         </div>
 
                         <p class="testimonial__description">
-                            É um cara muito responsável, com boa comunicação e facilidade de aprendizado. Fez faculdade de Ciência da Computação 
-                            comigo e sempre se destacava, líder nato e muitas vezes eleito representante de turma. Sempre que tenho dúvidas referentes 
-                            a photoshop ou algo relacionado a edição/design recorro ao Franklin. Recomendo demais seu trabalho como UX e Frontend Developer.
+                            É um cara muito responsável, com boa comunicação e facilidade de aprendizado. Fez faculdade
+                            de Ciência da Computação
+                            comigo e sempre se destacava, líder nato e muitas vezes eleito representante de turma.
+                            Sempre que tenho dúvidas referentes
+                            a photoshop ou algo relacionado a edição/design recorro ao Franklin. Recomendo demais seu
+                            trabalho como UX e Frontend Developer.
                         </p>
                     </div>
 
@@ -1186,15 +1018,15 @@
                                 <a href="https://www.linkedin.com/in/fernandauq/">
                                     <img src="assets/img/testimonial5.jpg" class="testimonial__img">
                                 </a>
-    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/fernandauq/">
                                         <h3 class="testimonial__name">Fernanda Uchôa</h3>
-                                        <span class="testimonial__client">Backend Developer</span>
+                                        <span class="testimonial__client">Software Developer Full Stack</span>
                                     </a>
                                 </div>
                             </div>
-    
+
                             <div>
                                 <i class="fas fa-star testimonial__icon-star"></i>
                                 <i class="fas fa-star testimonial__icon-star"></i>
@@ -1203,11 +1035,14 @@
                                 <i class="fas fa-star testimonial__icon-star"></i>
                             </div>
                         </div>
-    
+
                         <p class="testimonial__description">
-                            Franklin é um profissional impar, praticamente um artista no front-end. Sempre que surgia alguma duvida sobre qualquer estilo não previsto, 
-                            ele surgia com uma solução simples, usável e eficaz. Agregador de ideias e bastante dedicado, não mede esforços para enfrentar qualquer desafio, 
-                            ou seja, nada é páreo para ele. Então, é isto, ter o Franklin na equipe é saber que qualquer problema pode ser resolvido independentemente da dificuldade.
+                            Franklin é um profissional impar, praticamente um artista no front-end. Sempre que surgia
+                            alguma duvida sobre qualquer estilo não previsto,
+                            ele surgia com uma solução simples, usável e eficaz. Agregador de ideias e bastante
+                            dedicado, não mede esforços para enfrentar qualquer desafio,
+                            ou seja, nada é páreo para ele. Então, é isto, ter o Franklin na equipe é saber que qualquer
+                            problema pode ser resolvido independentemente da dificuldade.
                         </p>
                     </div>
 
@@ -1215,41 +1050,10 @@
                     <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
-                                <a href="https://www.linkedin.com/in/jonas-de-melo-9775a2259/">
-                                    <img src="assets/img/testimonial6.jpg" class="testimonial__img">
-                                </a>
-    
-                                <div>
-                                    <a href="https://www.linkedin.com/in/jonas-de-melo-9775a2259/">
-                                        <h3 class="testimonial__name">Jonas De Melo</h3>
-                                        <span class="testimonial__client">Backend Developer</span>
-                                    </a>
-                                </div>
-                            </div>
-    
-                            <div>
-                                <i class="fas fa-star testimonial__icon-star"></i>
-                                <i class="fas fa-star testimonial__icon-star"></i>
-                                <i class="fas fa-star testimonial__icon-star"></i>
-                                <i class="fas fa-star testimonial__icon-star"></i>
-                                <i class="fas fa-star testimonial__icon-star"></i>
-                            </div>
-                        </div>
-    
-                        <p class="testimonial__description">
-                            Sabe se comunicar muito bem, é um grande desenvolvedor Front-End e um grande amigo. Não tem como não sentir a falta dele quando ele não está presente. 
-                            Sabe animar o time e gerencia muito bem o trabalho sob pressão.
-                        </p>
-                    </div>
-
-                    <!--==================== TESTIMONIAL 7 ====================-->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
                                 <a href="https://www.linkedin.com/in/lu%C3%ADsa-klein-levy-3a2490186/">
                                     <img src="assets/img/testimonial7.jpg" class="testimonial__img">
                                 </a>
-    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/lu%C3%ADsa-klein-levy-3a2490186/">
                                         <h3 class="testimonial__name">Luísa Klein Levy</h3>
@@ -1257,7 +1061,7 @@
                                     </a>
                                 </div>
                             </div>
-    
+
                             <div>
                                 <i class="fas fa-star testimonial__icon-star"></i>
                                 <i class="fas fa-star testimonial__icon-star"></i>
@@ -1266,22 +1070,24 @@
                                 <i class="fas fa-star testimonial__icon-star"></i>
                             </div>
                         </div>
-    
+
                         <p class="testimonial__description">
-                            Franklin é um colega extremamente prestativo, proativo e responsável. Sempre muito curioso e estudioso, corre atrás pra resolver qualquer dúvida que encontra. 
-                            Trabalhamos com frequência e posso afirmar que é uma das pessoas mais gentis e dedicadas que conheço. Seu trabalho como desenvolvedor front-end é belíssimo e 
+                            Franklin é um colega extremamente prestativo, proativo e responsável. Sempre muito curioso e
+                            estudioso, corre atrás pra resolver qualquer dúvida que encontra.
+                            Trabalhamos com frequência e posso afirmar que é uma das pessoas mais gentis e dedicadas que
+                            conheço. Seu trabalho como desenvolvedor front-end é belíssimo e
                             muito fiel a qualquer protótipo que já propus na empresa. Realmente um cara incrível!
                         </p>
                     </div>
 
-                    <!--==================== TESTIMONIAL 8 ====================-->
+                    <!--==================== TESTIMONIAL 7 ====================-->
                     <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
                                 <a href="https://www.linkedin.com/in/beatriz-dias-e-canto-60a8a2185/">
                                     <img src="assets/img/testimonial8.jpg" class="testimonial__img">
                                 </a>
-    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/beatriz-dias-e-canto-60a8a2185/">
                                         <h3 class="testimonial__name">Beatriz Dias e Canto</h3>
@@ -1289,7 +1095,7 @@
                                     </a>
                                 </div>
                             </div>
-    
+
                             <div>
                                 <i class="fas fa-star testimonial__icon-star"></i>
                                 <i class="fas fa-star testimonial__icon-star"></i>
@@ -1298,11 +1104,14 @@
                                 <i class="fas fa-star testimonial__icon-star"></i>
                             </div>
                         </div>
-    
+
                         <p class="testimonial__description">
-                            Dedicado, preocupado com os clientes e com os colegas de trabalho. No pessoal tenho orgulho de ter tido oportunidade de conhece-lo e no profissional sorte de 
-                            te-lo no time. Sempre atencioso em tudo que faz e perfeccionista. Gosta de ensinar, me ajudou e ajuda muito nos testes de usabilidade e performance. Aproveito 
-                            a oportunidade para agradecer tudo que me ensinou, toda a troca que tivemos. Profissional impecável.
+                            Dedicado, preocupado com os clientes e com os colegas de trabalho. No pessoal tenho orgulho
+                            de ter tido oportunidade de conhece-lo e no profissional sorte de
+                            te-lo no time. Sempre atencioso em tudo que faz e perfeccionista. Gosta de ensinar, me
+                            ajudou e ajuda muito nos testes de usabilidade e performance. Aproveito
+                            a oportunidade para agradecer tudo que me ensinou, toda a troca que tivemos. Profissional
+                            impecável.
                         </p>
                     </div>
                 </div>
@@ -1317,27 +1126,27 @@
         <section class="contact section" id="contact">
             <h2 class="section__title">Contato</h2>
             <span class="section__subtitle">...só mandar aquele e-mail</span>
-            
+
             <div class="contact__container container grid">
                 <div>
-                    
+
                     <!--==================== PHONE ====================-->
                     <div class="contact__information">
                         <i class="uil uil-phone contact__icon"></i>
-                        
+
                         <div>
                             <h3 class="contact__title">Telefone</h3>
                             <span class="contact__subtitle">+55 61 98404-7441</span>
                         </div>
                     </div>
-                    
+
                     <!--==================== E-MAIL ====================-->
                     <div class="contact__information">
                         <i class="uil uil-envelope-alt contact__icon"></i>
-                        
+
                         <div>
                             <h3 class="contact__title">E-mail</h3>
-                            <span class="contact__subtitle">franklinarauj@gmail.com</span>
+                            <span class="contact__subtitle">franklinarauj.contato@gmail.com</span>
                         </div>
                     </div>
 
@@ -1360,7 +1169,7 @@
                             <span class="contact__subtitle">@franklinarauj</span>
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <form action="" class="contact__form grid">
@@ -1381,10 +1190,11 @@
                             <input type="text" class="contact__input">
                         </div> -->
                     </div>
-                    
+
                     <div class="contact__content">
                         <label for="" class="contact__label">Mensagem</label>
-                        <textarea name="" id="myText" cols="0" rows="7" maxlength="500" class="contact__input" style="resize: vertical"></textarea>
+                        <textarea name="" id="myText" cols="0" rows="7" maxlength="500" class="contact__input"
+                            style="resize: vertical"></textarea>
                     </div>
 
                     <div style="display:flex; justify-content: flex-end;">
@@ -1407,7 +1217,7 @@
                 <div>
                     <h1 class="footer__title">Franklin</h1>
                     <span class="footer__subtitle">
-                        Desenvolvedor Frontend
+                        Desenvolvedor FullStack
                         <!-- Buscando sempre ser uma pessoa melhor a cada dia 
                             e aprendendo com os acasos da vida. -->
                     </span>
@@ -1430,9 +1240,9 @@
                         <a href="#journey" class="footer__link">Jornada Profissional</a>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <a href="#services" class="footer__link">Serviços</a>
-                    </li>
+                    </li> -->
 
                     <li>
                         <a href="#portfolio" class="footer__link">Portfólio</a>
@@ -1462,7 +1272,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; Todos os direitos reservados.</p>
+            <p class="footer__copy"><span class="footer__copyright">&#169; </span>2024 - Todos os direitos reservados.</p>
 
         </div>
 
