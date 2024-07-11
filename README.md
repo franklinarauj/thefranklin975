@@ -2,7 +2,7 @@
 
 <h4><b>Meu primeiro website no qual compartilho um pouco do meu perfil profissional.</h4></b>
 
-![site](https://user-images.githubusercontent.com/51242246/133691004-86c09417-ec63-4ecf-a171-a4c9ce5a1566.png)
+![site](https://github.com/user-attachments/assets/a294bc46-17f3-4df0-8471-241b1f9769fa)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
