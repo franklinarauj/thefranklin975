@@ -1,4 +1,4 @@
-# <b>👨‍💻 Franklin Araújo - Frontend Developer</b>
+# <b>👨‍💻 Franklin Araújo - Fullstack Developer</b>
 
 <h4><b>Meu primeiro website no qual compartilho um pouco do meu perfil profissional.</h4></b>
 
