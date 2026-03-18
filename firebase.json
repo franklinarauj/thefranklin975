@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "franklinarauj",
-    "public": "public",
+    "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
