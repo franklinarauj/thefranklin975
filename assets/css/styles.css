@@ -24,6 +24,7 @@
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --button-color-without-border: hsl(var(--hue-color), 0%, 27%);
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -83,6 +84,7 @@ body.dark-theme {
     --container-color: hsl(var(--hue-color), 29%, 16%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+    --button-color-without-border: hsl(var(--hue-color), 0%, 27%);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -414,11 +416,12 @@ img {
 
 .home__scroll-button {
     color: var(--first-color);
-    transition: .3s;
+    transition: transform .3s;
+    display: inline-block;
 }
 
 .home__scroll-button:hover {
-    transform: translateY(.25rem);
+    transform: translateY(.5rem);
 }
 
 .home__scroll-mouse {
@@ -535,7 +538,8 @@ img {
 
 .about__info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 1rem;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -543,6 +547,13 @@ img {
     font-size: var(--h2-font-size);
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
+}
+
+.about__info-name {
+    font-size: 1rem;
+    line-height: 1.2;
+    display: block;
+    margin-top: 4px;
 }
 
 .about__info--name {
@@ -567,7 +578,7 @@ img {
 .skills__header {
     display: flex;
     align-items: center;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-1);
     cursor: pointer;
 }
 
@@ -611,7 +622,7 @@ img {
 }
 
 .skills__bar, .skills__percentage {
-    height: 5px;
+    height: 2px;
     border-radius: .25rem;
 }
 
@@ -826,11 +837,17 @@ img {
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
-    overflow: initial;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
 .portfolio__content {
-    padding: 0 1.5rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .portfolio__img {
@@ -841,15 +858,30 @@ img {
 
 .portfolio__title {
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-0-5);
-}
-
-.portfolio__description {
     margin-bottom: var(--mb-0-75);
 }
 
-.portfolio__button:hover .button__icon {
+.portfolio__description {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: var(--mb-2);
+    line-height: 1.5;
+}
+
+.portfolio__button:hover .portfolio__button-icon {
     transform: translateX(.25rem);
+    text-decoration: underline;
+}
+
+.portfolio__button:hover {
+    text-decoration: underline;
+}
+
+.portfolio__button {
+    font-size: 0.85rem;
+    color: var(--first-color);
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .swiper-button-prev::after, .swiper-button-next::after {
@@ -881,6 +913,30 @@ img {
     outline: none;
 }
 
+.portfolio__card {
+    background: var(--first-color-second);
+    border-radius: 16px;
+    padding: 1.5rem;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.portfolio__card:hover {
+    transform: translateY(-8px);
+    border: 1px solid var(--button-color-without-border);
+}
+
+.portfolio__stack {
+    margin-top: auto;
+    font-size: 0.75rem;
+    color: var(--button-color-without-border);
+    display: block;
+    margin-bottom: 1rem;
+}
+
 /*==================== PROJECT IN MIND ====================*/
 .project {
     text-align: center;
@@ -905,7 +961,7 @@ img {
 }
 
 .project__img {
-    width: 232px;
+    width: 240px;
     justify-self: center;
 }
 
@@ -1340,9 +1396,9 @@ img {
     .portfolio__img {
         width: 320px;
     }
-    .portfolio__content {
+    /* .portfolio__content {
         align-items: center;
-    }
+    } */
 
     .project {
         text-align: initial;
@@ -1353,7 +1409,9 @@ img {
     .project__container {
         background-color: var(--first-color-second);
         border-radius: 1rem;
-        padding: 3rem 2.5rem 0;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 3rem 2.5rem 3rem;
         grid-template-columns: 1fr max-content;
         column-gap: 3rem;
     }
